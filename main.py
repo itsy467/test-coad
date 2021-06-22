@@ -2,9 +2,33 @@ def on_button_pressed_a():
     basic.clear_screen()
     basic.show_leds("""
         . . # . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        """)
+    basic.pause(100)
+    basic.show_leds("""
+        . . # . .
+        . # . # .
+        . . . . .
+        . . . . .
+        . . . . .
+        """)
+    basic.pause(100)
+    basic.show_leds("""
+        . . # . .
         . # . # .
         . # . # .
         . . . . .
+        . . . . .
+        """)
+    basic.pause(100)
+    basic.show_leds("""
+        . . # . .
+        . # . # .
+        . # . # .
+        . # . # .
         . . . . .
         """)
     basic.pause(100)
@@ -52,11 +76,11 @@ def on_button_pressed_ab():
         """)
     basic.pause(100)
     basic.show_leds("""
+        . . . . .
         . . # . .
+        . # # # .
         . . # . .
-        # # # # #
-        . . # . .
-        . . # . .
+        . . . . .
         """)
     basic.pause(100)
     basic.show_leds("""
@@ -97,9 +121,33 @@ def on_button_pressed_b():
     basic.show_leds("""
         . # # . .
         . # . . .
+        . # . . .
+        . # . . .
+        . # . . .
+        """)
+    basic.pause(100)
+    basic.show_leds("""
+        . # # . .
+        . # . # .
+        . # . . .
+        . # . . .
+        . # . . .
+        """)
+    basic.pause(100)
+    basic.show_leds("""
+        . # # . .
+        . # . # .
         . # # . .
         . # . . .
+        . # . . .
+        """)
+    basic.pause(100)
+    basic.show_leds("""
         . # # . .
+        . # . # .
+        . # # . .
+        . # . # .
+        . # . . .
         """)
     basic.pause(100)
     basic.show_leds("""
